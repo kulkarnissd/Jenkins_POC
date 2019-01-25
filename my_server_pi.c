@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
      int n;
      int data;
 
-     printf( "using port #%d\n", portno );
+     print( "using port #%d\n", portno );
     
      sockfd = socket(AF_INET, SOCK_STREAM, 0);
      if (sockfd < 0) 
